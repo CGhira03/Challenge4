@@ -1,0 +1,63 @@
+body{
+    font-family: "Sora", sans-serif;
+    background-color: #f8f8f8; 
+}
+.titleClass{
+    text-align: center; 
+    padding: 0% 20%;
+}
+.titleClass h1{
+    font-size: 36px;
+}
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listClass{
+    padding: 0% 12%;
+    align-items: center;
+}
+.listClass ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.listClass li {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    background-color: #f8f8f8;
+    padding: 15px; 
+    border-radius: 10px;
+}
+
+.listClass img {
+    border-radius: 10px;
+    object-fit: cover; 
+    width: 170px;
+}
+
+.listClass h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.listClass p {
+    font-size: 14px;
+    color: #666; 
+}
+.text-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+@media (max-width: 700px){
+    .titleClass{
+        padding: 1% 4%;
+    }
+    .listClass{
+        padding: 0%;
+    }
+}
