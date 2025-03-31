@@ -1,6 +1,6 @@
 body{
     font-family: "Sora", sans-serif;
-    background-color: #f8f8f8; 
+    background-color: #F8FAFC; 
 }
 .titleClass{
     text-align: center; 
@@ -46,7 +46,8 @@ body{
 
 .listClass p {
     font-size: 14px;
-    color: #666; 
+    font-weight: bold;
+    color: #4D5562; 
 }
 .text-content {
     display: flex;
